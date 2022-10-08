@@ -1,0 +1,87 @@
+h4 {
+    background-color: rgb(111, 190, 137);
+    text-align: center;
+    color: white;
+    padding: 5px;
+    border-radius: 10%;
+}
+
+#userInputs {
+    text-align: center;
+    margin: 5px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+select {
+    text-align: center;
+    font-weight: bold;
+}
+
+#name {
+    text-align: center;
+    width: auto;
+    text-align: center;
+}
+
+#lblName:after {
+    content: " * ";
+    color: red;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#lblSize:after {
+    content: "*";
+    color: red;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#btnAdd {
+    float: right;
+}
+
+#checkOut {
+    display: none;
+}
+
+#location {
+    display: none;
+}
+
+#totals p {
+    font-weight: bold;
+    background-color: turquoise;
+    text-align: right;
+    padding-right: 10%;
+}
+
+#order {
+    font-size: 13px;
+    text-align: justify;
+}
+
+#priceSpan {
+    background-color: turquoise;
+}
+
+body {
+    background-color: lightgray;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    #bg-image,
+    #userInputs,
+    #orderSummary,
+    #totals,
+    #checkout,
+    #alert {
+        width: 100%;
+    }
+}
